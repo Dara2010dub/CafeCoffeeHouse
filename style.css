@@ -1,0 +1,222 @@
+body{
+    margin: 0px;
+    margin-bottom: -200pxs;
+
+}
+header{
+    background-color: #E3A862;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+nav{
+    width: 500px;
+
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-left: 40px;
+    
+
+}
+nav a:hover{
+    border: 1px solid #FFDEAD;
+    padding: 5px;
+    background-color: #FFDEAD;
+    border-radius: 15px;
+    transition: 0.5s;
+    box-shadow: 5px 5px 10px 10px wheat;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    
+}
+.CoffeeHouse{
+    background-image: url("page1.png");
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    padding-top: 40px;
+
+}
+.CoffeeHouse h1{
+    background-color: #FFDEAD;
+    border-radius: 25px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.arar{
+    background-color: #FFDEAD;
+    border-radius: 25px;
+    width: 350px;
+    padding: 20px 5px 30px 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.arar:hover{
+    transition: 0.5s;
+    box-shadow: 5px 5px 10px 10px wheat;
+}
+.arar a{
+    text-decoration: none;
+    color: black;
+    background-color: #CD853F;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 30px;
+
+}
+.menu{
+  text-align: center;
+  font-size: 30px;
+}
+.CoffeeMenu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.MenuBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 60px;
+}
+.MenuBlock img{
+    width: 350px;
+}
+.MenuText{
+    margin-left: 50px;
+}
+.MenuText p{
+    font-size: 22px;
+    
+}
+.MenuText span p{
+    font-size: 22px;
+    font-weight: bold; 
+    margin-right: 50px;  
+}
+.price{
+    display: flex;
+
+
+}
+.MenuBlock::before{
+   content: url("Star.png");
+   position: relative;
+   z-index: 2;
+   left: 340px;
+   top: 100px;
+   opacity: 0.2;
+   
+}
+.MenuBlock:hover::before{
+    opacity: 1;
+}
+.OurPerconal{
+   width: 100%; 
+}
+.perconal{
+    text-align: center;
+    font-size: 30px;
+}
+.divky{
+    background-color: #DEB887;
+    width: 260px;
+    height: 350px;
+    margin-left: 60px;
+    display: inline-block;
+}
+.OurPerconal .perconality{
+    width: 200px;
+    padding: 30px;
+}
+.divky p{
+    font-size: 30px;
+    margin-left: 35px;
+    margin-top: -10px;
+}
+
+.divky .direct{
+    font-size: 20px;
+    padding-left: 55px;
+}
+
+.us{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.AU{
+    background-color: #FFDEAD;
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+}
+.AU p{
+    font-size: 25px;
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 50px;
+    display: inline-block;
+}
+.AU img{
+    width: 350px;
+    display: inline-block;
+    margin-left: 130px;
+    margin-bottom: 10px;
+
+}
+
+.CoffeeBeans{
+    width: 100%;
+    margin-top: 100px;
+    height: 350px;
+    padding-bottom: 0%;
+}
+footer{
+    background-image: url(page1.png);
+    width: 100%;
+    height: 300px;
+    margin-top: 60px;
+    margin-bottom: -20s0px;
+
+}  
+footer p{
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.foot{
+    width: 200px;
+    position: relative;
+    top: -170px;
+    left: 900px;
+
+}
+.soc_meregi{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.soc_meregi .insta{
+    height: 90px;
+    
+}
